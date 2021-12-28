@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState} from 'react'
 
 const NavBar = () => {
     const [currentAccount, setCurrentAccount] = useState(null);
@@ -24,9 +24,6 @@ const NavBar = () => {
             }
     }
 
-    // useEffect(()=>{
-    //     connectWalletHandler()
-    //     },[])
     return (
         <div>
             {currentAccount}
